@@ -1,0 +1,403 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*::selection {
+	background-color: #f85605;
+	color: #fff;
+}
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	background: #b0adad;
+	background-color: #212121;
+	color: #fff;
+}
+
+.site-header-container {
+	max-width: 1220px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.container {
+	max-width: 1263px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.site-top {
+	background-image: url(../images/header/bg-image\ 1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 280px;
+}
+.site-header {
+	padding-top: 18px;
+	padding-bottom: 209px;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	font-family: 'Poppins';
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.5;
+	letter-spacing: 0%;
+	color: #fff;
+	transition: all 0.4s ease;
+}
+
+.logo img {
+	margin-right: 14px;
+}
+
+.logo:hover {
+	opacity: 0.8;
+	transform: scale(1.1);
+}
+
+.logo:active {
+	opacity: 0.6;
+}
+.sitenav {
+	display: flex;
+	align-items: center;
+}
+.sitenav-item:not(:last-child) {
+	margin-right: 32px;
+}
+
+.sitenav-item {
+	transition: all 0.4s ease;
+}
+
+.sitenav-item:hover {
+	opacity: 0.8;
+	transform: translateY(-10px);
+	/* transform: scale(1.1); */
+}
+
+.sitenav-link:active {
+	opacity: 0.6;
+}
+.sitenav-link {
+	font-family: 'Poppins';
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	color: #fff;
+	transition: all 0.4s ease;
+}
+
+.sitenav-link:hover {
+	color: #f85605;
+}
+
+/* hero-start */
+.hero-container {
+	max-width: 540px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	color: #fff;
+}
+.hero-title {
+	margin-bottom: 24px;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 1.5;
+}
+.hero-text {
+	font-family: 'Poppins';
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 1.5;
+	margin-bottom: 24px;
+}
+.social {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.social-item:not(:last-child) {
+	margin-right: 24px;
+}
+
+.social-link {
+	width: 44px;
+	height: 44px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	transition: all 0.4s ease;
+}
+
+.social-link:hover {
+	transform: scale(1.1);
+}
+
+.social-link:active {
+	opacity: 0.6;
+}
+
+/* word-Start */
+
+.word {
+	padding-top: 106px;
+	padding-bottom: 124px;
+}
+.word-container {
+	display: flex;
+	align-items: center;
+}
+
+.all {
+	display: flex;
+	align-items: center;
+	padding-right: 47px;
+}
+.left-img {
+	margin-right: 30px;w
+}
+.word-text {
+	background-color: #212121;
+	color: #fff;
+	padding-right: 47px;
+}
+.word-title {
+  font-family: 'Poppins';
+font-weight: 600;
+font-size: 24px;
+line-height: 100%;
+	color: #1d28c3;
+}
+.word-headline {
+	padding-top: 12px;
+  font-family: 'Poppins';
+font-weight: 600;
+font-size: 36px;
+line-height: 1.5;
+}
+.word-paragraf {
+  font-family: 'Poppins';
+font-weight: 400;
+font-size: 18px;
+line-height: 1.5;
+	padding-top: 32px;
+}
+.word-paragraf2 {
+  font-family: 'Poppins';
+font-weight: 400;
+font-size: 18px;
+line-height: 1.5;
+	padding-top: 16px;
+}
+
+
+
+
+
+/* what-start */
+.What {
+	padding-top: 64px;
+	padding-bottom: 60px;
+}
+.container {
+}
+.what-title-warapper {
+	text-align: center;
+}
+.word-title {
+
+}
+.word-headline {
+}
+.what-list {
+	display: flex;
+	justify-content:space-between;
+	max-width: 980px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.what-item {
+	max-width: 480px;
+	width: 100%;
+	background-color: #292C36;
+	border-radius: 12px;
+	padding: 27px 24px 21px;
+}
+
+.front-img {
+	color: #fff;
+}
+
+
+
+.what-list-top {
+display: flex;
+align-items: center;
+margin-bottom: 35px;
+}
+.what-pic {
+	margin-right: 16px;
+	background-color: #38405a;
+	width: 66px;
+	height: 66px;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+}
+.what-title3 {
+	font-family: Poppins;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0%;
+color: #fff;
+max-width: 219px;
+width: 100%
+}
+.what-text {
+	color: #B0ADAD;
+}
+
+/* start est */
+.Est {
+
+}
+.container {
+}
+.port {
+}
+.port-hedline {
+	color: #1d28c3;
+	padding-top: 120px;
+text-align: center;
+}
+.latest {
+		padding-top: 50px;
+	text-align: center;
+}
+.Est-divstr {
+	padding-top: 50px;
+display: flex;
+
+}
+.Est-ulrost {
+	display: flex;
+	margin-right: 16px;
+
+border-radius: 8px;
+}
+.Est-link {
+		margin-right: 20px;
+		background-color: #292C36;
+		border-radius: 8px;
+}
+.img-title {
+	padding-top: 20px;
+		max-width: 480px;
+	width: 100%;
+	background-color: #292C36;
+	border-radius: 12px;
+	padding: 27px 24px 21px;
+}
+.btn {
+	color: #fff;
+	background-color: #1d28c3;
+	width: 128px;
+	height: 41px;
+	border: none;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	background-color: #fa0b0b;
+	color: #fff;
+}
+
+.mind-section {
+	padding-top: 100px;
+}
+
+.mind {
+	padding-top: 100px;
+	border-radius: 10px;
+	text-align: center;
+	border-radius: 12px;
+
+		background-color: #292C36;
+	border-radius: 1px;
+	padding: 	10px 10px 10px;
+	margin-bottom: 120px;
+}
+.projects {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.logo-fotre {
+		padding-top: 100px;
+	border-radius: 10px;
+	text-align: center;
+	border-radius: 12px;
+
+		background-color: #292C36;
+	border-radius: 1px;
+	padding: 	10px 10px 10px;
+}
+.btnas {
+	background-color: #1d28c3;
+	color: #fff;
+	text-align: center;
+	justify-content: center;
+	width: 133px;
+	height: 41px;
+	border: none;
+	border-radius: 5px;
+}
+.btnas:hover {
+	background-color: #fa0b0b;
+	color: #fff;
+}
+
+.bank {
+	border-radius: 10px;
+	background-color: #292C36;
+	padding-top: 190px;
+	text-align: center;
+
+}
+.logo-h1 {
+	padding-bottom: 50px;
+}
+.loghovs-paragraf {
+}
